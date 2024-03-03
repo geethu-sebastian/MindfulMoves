@@ -4,13 +4,13 @@ import Navbar from "./components/Navbar";
 export default function Home() {
   return (
     <>
-    <div className="flex flex-row py-2">
+    <div className="flex flex-col py-2">
     <Navbar />
-    <div className="flex flex-col">
-      <Image/>
+    <div className="flex flex-row">
+      <Image className="flex w-[60%] h-full"/>
       <div className="flex flex-row">
          <h1>Mindful Moves</h1>
-         
+
       </div>
     </div>
     </div>
