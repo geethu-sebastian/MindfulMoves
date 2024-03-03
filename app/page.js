@@ -6,17 +6,17 @@ export default function Home() {
     <>
     <div className="flex flex-col py-2 w-full h-full">
     <Navbar />
-    <div className="flex flex-row px-4 w-full h-full">
+    <div className="flex flex-row px-8 w-full h-full">
       <Image className="flex w-[45%] h-full"
        src="/Girl.svg"
        alt="Vercel Logo"
        width={80}
        height={60}/>
       <div className="flex flex-col justify-center items-center px-4 w-[50%] h-full">
-         <h1 className="font-bold text-4xl">Mindful Moves</h1>
-         <p>Discover personalized yoga routines</p>
-         <p>Just for you!</p>
-         {/* <button className="bg-red-400 w-4 h-4">Start</button> */}
+         <h1 className="font-bold text-6xl py-4">Mindful Moves</h1>
+         <p className="font-small text-xl py-2">Discover personalized yoga routines</p>
+         <p className="font-small text-xl pyb-2">Just for you!</p>
+         <button className="w-[10%] h-[5%] bg-red-400 text-xl text-white my-2">Start</button>
       </div>
     </div>
     </div>
