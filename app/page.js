@@ -4,13 +4,19 @@ import Navbar from "./components/Navbar";
 export default function Home() {
   return (
     <>
-    <div className="flex flex-col py-2">
+    <div className="flex flex-col py-2 w-full h-full">
     <Navbar />
-    <div className="flex flex-row">
-      <Image className="flex w-[60%] h-full"/>
-      <div className="flex flex-row">
-         <h1>Mindful Moves</h1>
-
+    <div className="flex flex-row px-4 w-full h-full">
+      <Image className="flex w-[45%] h-full"
+       src="/Girl.svg"
+       alt="Vercel Logo"
+       width={80}
+       height={60}/>
+      <div className="flex flex-col justify-center items-center px-4 w-[50%] h-full">
+         <h1 className="font-bold text-4xl">Mindful Moves</h1>
+         <p>Discover personalized yoga routines</p>
+         <p>Just for you!</p>
+         {/* <button className="bg-red-400 w-4 h-4">Start</button> */}
       </div>
     </div>
     </div>
